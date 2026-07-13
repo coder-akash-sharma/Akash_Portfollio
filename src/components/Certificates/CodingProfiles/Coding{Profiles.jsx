@@ -12,14 +12,14 @@ function CodingProfiles() {
     {
       title: "GitHub",
       username: "akash-sh53",
-      link: "https://github.com/akash-sh53",
+      link: "https://github.com/coder-akash-sharma",
       icon: <FaGithub />,
     },
 
     {
       title: "LinkedIn",
       username: "Akash Sharma",
-      link: "https://www.linkedin.com/in/akash-sharma-1088a030b",
+      link: "https://www.linkedin.com/in/coder-akash-sharma",
       icon: <FaLinkedin />,
     },
 

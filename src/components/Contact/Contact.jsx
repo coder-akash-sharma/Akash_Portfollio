@@ -108,7 +108,7 @@ function Contact() {
 
 
               <a
-                href="https://github.com/akash-sh53"
+                href="https://github.com/coder-akash-sharma"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-5 hover:text-blue-400 transition"
@@ -123,7 +123,7 @@ function Contact() {
 
 
               <a
-                href="https://www.linkedin.com/in/akash-sharma-1088a030b"
+                href="https://www.linkedin.com/in/coder-akash-sharma"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-5 hover:text-blue-400 transition"

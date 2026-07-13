@@ -48,10 +48,10 @@ function Hero() {
           </div>
 
           <div className="flex gap-6 mt-8">
-            <a href="https://github.com/akash-sh53" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
+            <a href="https://github.com/coder-akash-sharma" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/akash-sharma-1088a030b" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
+            <a href="https://www.linkedin.com/in/coder-akash-sharma" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
               <FaLinkedin />
             </a>
           </div>

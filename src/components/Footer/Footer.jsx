@@ -121,7 +121,7 @@ function Footer() {
 
               <a
 
-                href="https://github.com/akash-sh53"
+                href="https://github.com/coder-akash-sharma"
 
                 target="_blank"
 
@@ -144,7 +144,7 @@ function Footer() {
 
               <a
 
-                href="https://www.linkedin.com/in/akash-sharma-1088a030b"
+                href="https://www.linkedin.com/in/coder-akash-sharma"
 
                 target="_blank"
 
