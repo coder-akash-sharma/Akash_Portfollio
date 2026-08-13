@@ -94,7 +94,7 @@ function About() {
       {[
         { number: "5+", label: "Technologies" },
         { number: "2+", label: "Projects" },
-        { number: "5+", label: "DSA Problems" },
+        { number: "50+", label: "DSA Problems" },
         { number: "2+", label: "Certificates" },
       ].map((item) => (
         <div

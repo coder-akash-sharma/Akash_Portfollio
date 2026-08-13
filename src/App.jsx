@@ -10,7 +10,7 @@ import Experience from './components/Experience/Experience';
 import Certificates from './components/Certificates/Certificates';
 import Contact from './components/Contact/Contact';
 import Footer from './components/Footer/Footer';
-import Particles from "@tsparticles/react";
+
 function App() {
   return (
     <div className="bg-[#050816] text-white">
