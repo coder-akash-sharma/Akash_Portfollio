@@ -5,7 +5,7 @@ import profile from "../../assets/profile/profile1.jpg";
 
 function Hero() {
   return (
-    <section id="home" className="min-h-screen flex items-center pt-32 pb-24 px-10 md:px-16 bg-[#050816]">
+    <section id="home" className="min-h-screen flex items-center pt-36 pb-32 px-10 md:px-16 bg-[#050816]">
       <div className="max-w-7xl mx-auto mt-8 grid md:grid-cols-2 gap-16 md:gap-20 items-center">
         <motion.div
           initial={{ opacity: 0, x: -50 }}
@@ -51,7 +51,7 @@ function Hero() {
             <a href="https://github.com/coder-akash-sharma" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
               <FaGithub />
             </a>
-            <a href="https://www.linkedin.com/in/coder-akash-sharma" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
+            <a href="https://www.linkedin.com/in/akash-sharma-1088a030b" target="_blank" rel="noreferrer" className="text-3xl text-gray-300 hover:text-blue-400 transition">
               <FaLinkedin />
             </a>
           </div>

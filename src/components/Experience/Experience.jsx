@@ -40,7 +40,7 @@ function Experience() {
   return (
     <section
       id="experience"
-      className="py-28 px-8 md:px-12 bg-[#050816]"
+      className="py-36 px-8 md:px-12 bg-[#050816]"
     >
 
       <div className="max-w-5xl mx-auto">
@@ -62,7 +62,7 @@ function Experience() {
             duration:0.7
           }}
 
-          className="text-5xl font-bold text-center mb-16"
+          className="text-5xl font-bold text-center mb-20"
         >
 
           Experience & Education

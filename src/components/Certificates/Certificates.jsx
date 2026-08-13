@@ -25,7 +25,7 @@ function Certificates() {
   return (
     <section
       id="certificates"
-      className="py-28 px-8 md:px-12 bg-[#0b1120]"
+      className="py-36 px-8 md:px-12 bg-[#0b1120]"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -47,7 +47,7 @@ function Certificates() {
             duration:0.7
           }}
 
-          className="text-5xl font-bold text-center mb-16"
+          className="text-5xl font-bold text-center mb-20"
         >
 
           Certificates

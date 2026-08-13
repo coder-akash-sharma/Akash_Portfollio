@@ -58,14 +58,14 @@ const skillCategories = [
 
 function Skills() {
   return (
-    <section id="skills" className="py-28 px-8 md:px-12 bg-[#050816]">
+    <section id="skills" className="py-36 px-8 md:px-12 bg-[#050816]">
       <div className="max-w-7xl mx-auto">
 
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-bold text-center mb-16"
+          className="text-5xl font-bold text-center mb-20"
         >
           My Skills
         </motion.h2>

@@ -13,7 +13,7 @@ function Contact() {
 
     <section
       id="contact"
-      className="py-28 px-8 md:px-12 bg-[#0b1120]"
+      className="py-36 px-8 md:px-12 bg-[#0b1120]"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -123,7 +123,7 @@ function Contact() {
 
 
               <a
-                href="https://www.linkedin.com/in/coder-akash-sharma"
+                href="https://www.linkedin.com/in/akash-sharma-1088a030b/"
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-5 hover:text-blue-400 transition"

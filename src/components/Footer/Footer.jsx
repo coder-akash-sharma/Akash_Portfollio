@@ -144,7 +144,7 @@ function Footer() {
 
               <a
 
-                href="https://www.linkedin.com/in/coder-akash-sharma"
+                href="https://www.linkedin.com/in/akash-sharma-1088a030b"
 
                 target="_blank"
 

@@ -19,7 +19,7 @@ function CodingProfiles() {
     {
       title: "LinkedIn",
       username: "Akash Sharma",
-      link: "https://www.linkedin.com/in/coder-akash-sharma",
+      link: "https://www.linkedin.com/in/akash-sharma-1088a030b/",
       icon: <FaLinkedin />,
     },
 
@@ -36,7 +36,7 @@ function CodingProfiles() {
 
     <section
       id="profiles"
-      className="py-24 px-8 bg-[#050816]"
+      className="py-32 px-8 bg-[#050816]"
     >
 
       <div className="max-w-7xl mx-auto">

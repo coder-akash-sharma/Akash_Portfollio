@@ -10,7 +10,7 @@ function About() {
   return (
     <section
       id="about"
-      className="py-28 px-8 md:px-12 bg-[#0b1120]"
+      className="py-36 px-8 md:px-12 bg-[#0b1120]"
     >
       <div className="max-w-7xl mx-auto">
 
@@ -18,7 +18,7 @@ function About() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-bold text-center mb-16"
+          className="text-5xl font-bold text-center mb-20"
         >
           About Me
         </motion.h2>
@@ -94,7 +94,7 @@ function About() {
       {[
         { number: "5+", label: "Technologies" },
         { number: "2+", label: "Projects" },
-        { number: "3+", label: "DSA Problems" },
+        { number: "5+", label: "DSA Problems" },
         { number: "2+", label: "Certificates" },
       ].map((item) => (
         <div
