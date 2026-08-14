@@ -58,31 +58,31 @@ const skillCategories = [
 
 function Skills() {
   return (
-    <section id="skills" className="py-36 px-8 md:px-12 bg-[#050816]">
+    <section id="skills" className="py-28 sm:py-32 lg:py-36 px-4 sm:px-6 md:px-12 bg-[#050816]">
       <div className="max-w-7xl mx-auto">
 
         <motion.h2
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-bold text-center mb-20"
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 lg:mb-20"
         >
           My Skills
         </motion.h2>
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-5 sm:gap-6 lg:gap-8 items-stretch">
 
           {skillCategories.map((category) => (
             <motion.div
               key={category.title}
               whileHover={{ scale: 1.03 }}
-              className="bg-white/5 backdrop-blur-xl rounded-3xl border border-white/10 p-6"
+              className="bg-white/5 backdrop-blur-xl rounded-3xl border border-white/10 p-5 sm:p-6 lg:p-7 min-h-[220px] h-full"
             >
-              <h3 className="text-2xl font-bold text-blue-400 mb-6">
+              <h3 className="text-xl sm:text-2xl font-bold text-blue-400 mb-4 sm:mb-6">
                 {category.title}
               </h3>
 
-              <div className="space-y-4">
+              <div className="space-y-3 sm:space-y-4">
 
                 {category.skills.map((skill) => (
                   <div
@@ -93,7 +93,7 @@ function Skills() {
                       {skill.icon}
                     </div>
 
-                    <span className="text-lg">
+                    <span className="text-base sm:text-lg break-words">
                       {skill.name}
                     </span>
                   </div>

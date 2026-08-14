@@ -25,7 +25,7 @@ function Certificates() {
   return (
     <section
       id="certificates"
-      className="py-36 px-8 md:px-12 bg-[#0b1120]"
+      className="py-28 sm:py-32 lg:py-36 px-4 sm:px-6 md:px-12 bg-[#0b1120]"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -47,7 +47,7 @@ function Certificates() {
             duration:0.7
           }}
 
-          className="text-5xl font-bold text-center mb-20"
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 lg:mb-20"
         >
 
           Certificates
@@ -56,7 +56,7 @@ function Certificates() {
 
 
 
-        <div className="grid md:grid-cols-2 gap-10">
+        <div className="grid md:grid-cols-2 gap-5 sm:gap-6 lg:gap-10">
 
 
           {
@@ -92,7 +92,9 @@ function Certificates() {
                 border
                 border-white/10
                 rounded-3xl
-                p-8
+                p-5
+                sm:p-6
+                lg:p-8
                 "
               >
 
@@ -115,7 +117,7 @@ function Certificates() {
 
 
 
-                <h3 className="text-2xl font-bold">
+                <h3 className="text-xl sm:text-2xl font-bold break-words">
                   {certificate.title}
                 </h3>
 
@@ -127,7 +129,7 @@ function Certificates() {
 
 
 
-                <p className="text-gray-400 mt-4 leading-7">
+                <p className="text-gray-400 mt-4 leading-6 sm:leading-7 text-sm sm:text-base">
                   {certificate.description}
                 </p>
 

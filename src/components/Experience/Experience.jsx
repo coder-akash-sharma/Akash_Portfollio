@@ -40,7 +40,7 @@ function Experience() {
   return (
     <section
       id="experience"
-      className="py-36 px-8 md:px-12 bg-[#050816]"
+      className="py-28 sm:py-32 lg:py-36 px-4 sm:px-6 md:px-12 bg-[#050816]"
     >
 
       <div className="max-w-5xl mx-auto">
@@ -62,7 +62,7 @@ function Experience() {
             duration:0.7
           }}
 
-          className="text-5xl font-bold text-center mb-20"
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 lg:mb-20"
         >
 
           Experience & Education
@@ -79,7 +79,8 @@ function Experience() {
           <div
             className="
             absolute
-            left-6
+            left-4
+            sm:left-6
             top-0
             h-full
             w-[2px]
@@ -118,7 +119,9 @@ function Experience() {
                 className="
                 relative
                 flex
-                gap-8
+                gap-4
+                sm:gap-6
+                lg:gap-8
                 "
               >
 
@@ -127,15 +130,19 @@ function Experience() {
 
                 <div
                   className="
-                  w-12
-                  h-12
+                  w-9
+                  h-9
+                  sm:w-12
+                  sm:h-12
                   rounded-full
                   bg-blue-600
                   flex
                   items-center
                   justify-center
-                  text-xl
+                  text-base
+                  sm:text-xl
                   z-10
+                  flex-shrink-0
                   "
                 >
                   {item.icon}
@@ -152,12 +159,13 @@ function Experience() {
                   border
                   border-white/10
                   rounded-2xl
-                  p-6
+                  p-4
+                  sm:p-6
                   flex-1
                   "
                 >
 
-                  <h3 className="text-2xl font-bold">
+                  <h3 className="text-xl sm:text-2xl font-bold break-words">
                     {item.title}
                   </h3>
 
@@ -172,7 +180,7 @@ function Experience() {
                   </p>
 
 
-                  <p className="text-gray-400 mt-4 leading-7">
+                  <p className="text-gray-400 mt-4 leading-6 sm:leading-7 text-sm sm:text-base">
                     {item.description}
                   </p>
 

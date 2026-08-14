@@ -6,7 +6,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="py-36 px-8 md:px-12 bg-[#0b1120]"
+      className="py-28 sm:py-32 lg:py-36 px-4 sm:px-6 md:px-12 bg-[#0b1120]"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -17,7 +17,7 @@ function Projects() {
           initial={{ opacity: 0, y: 40 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.7 }}
-          className="text-5xl font-bold text-center mb-20"
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-12 sm:mb-16 lg:mb-20"
         >
           My Projects
         </motion.h2>
@@ -25,7 +25,7 @@ function Projects() {
 
         {/* Project Cards */}
 
-        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5 sm:gap-6 lg:gap-8">
 
           {projects.map((project, index) => (
 
@@ -58,9 +58,10 @@ function Projects() {
               border-white/10
               rounded-3xl
               overflow-hidden
-              p-6
+              p-4 sm:p-5 lg:p-6
               hover:border-blue-500
               transition
+              h-full
               "
             >
 
@@ -68,7 +69,9 @@ function Projects() {
 
               <div
                 className="
-                h-48
+                h-36
+                sm:h-40
+                lg:h-44
                 rounded-2xl
                 bg-gradient-to-r
                 from-blue-500
@@ -89,14 +92,14 @@ function Projects() {
 
               {/* Title */}
 
-              <h3 className="text-2xl font-bold mb-3">
+              <h3 className="text-xl sm:text-2xl font-bold mb-3 break-words leading-tight">
                 {project.title}
               </h3>
 
 
               {/* Description */}
 
-              <p className="text-gray-400 leading-7 mb-5">
+              <p className="text-gray-400 leading-6 sm:leading-7 mb-5 text-sm sm:text-base">
                 {project.description}
               </p>
 
@@ -128,7 +131,7 @@ function Projects() {
 
               {/* Buttons */}
 
-              <div className="flex gap-4">
+              <div className="flex flex-col sm:flex-row gap-3 sm:gap-4">
 
                 <a
                   href={project.github}

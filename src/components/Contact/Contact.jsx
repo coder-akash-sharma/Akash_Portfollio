@@ -13,7 +13,7 @@ function Contact() {
 
     <section
       id="contact"
-      className="py-36 px-8 md:px-12 bg-[#0b1120]"
+      className="py-28 sm:py-32 lg:py-36 px-4 sm:px-6 md:px-12 bg-[#0b1120]"
     >
 
       <div className="max-w-7xl mx-auto">
@@ -35,14 +35,14 @@ function Contact() {
             duration:0.7
           }}
 
-          className="text-5xl font-bold text-center mb-16"
+          className="text-3xl sm:text-4xl lg:text-5xl font-bold text-center mb-10 sm:mb-12 lg:mb-16"
         >
           Contact Me
         </motion.h2>
 
 
 
-        <div className="grid lg:grid-cols-2 gap-12">
+        <div className="grid lg:grid-cols-2 gap-6 sm:gap-8 lg:gap-12">
 
 
 
@@ -71,24 +71,26 @@ function Contact() {
             border
             border-white/10
             rounded-3xl
-            p-8
+            p-5
+            sm:p-6
+            lg:p-8
             "
 
           >
 
-            <h3 className="text-3xl font-bold mb-8">
+            <h3 className="text-2xl sm:text-3xl font-bold mb-6 sm:mb-8">
               Let's Connect 🚀
             </h3>
 
 
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-6">
 
 
-              <div className="flex items-center gap-5">
+              <div className="flex items-center gap-3 sm:gap-5 min-w-0">
 
-                <FaEnvelope className="text-blue-400 text-2xl"/>
+                <FaEnvelope className="text-blue-400 text-2xl flex-shrink-0"/>
 
-                <span>
+                <span className="break-words min-w-0 text-sm sm:text-base">
                   Your Email Here
                 </span>
 
@@ -96,11 +98,11 @@ function Contact() {
 
 
 
-              <div className="flex items-center gap-5">
+              <div className="flex items-center gap-5 min-w-0">
 
-                <FaMapMarkerAlt className="text-red-400 text-2xl"/>
+                <FaMapMarkerAlt className="text-red-400 text-2xl flex-shrink-0"/>
 
-                <span>
+                <span className="break-words min-w-0 text-sm sm:text-base">
                   Uttar Pradesh, India
                 </span>
 
@@ -111,12 +113,12 @@ function Contact() {
                 href="https://github.com/coder-akash-sharma"
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-5 hover:text-blue-400 transition"
+                className="flex items-center gap-5 hover:text-blue-400 transition min-w-0"
               >
 
-                <FaGithub className="text-2xl"/>
+                <FaGithub className="text-2xl flex-shrink-0"/>
 
-                GitHub
+                <span className="break-words min-w-0 text-sm sm:text-base">GitHub</span>
 
               </a>
 
@@ -126,12 +128,12 @@ function Contact() {
                 href="https://www.linkedin.com/in/akash-sharma-1088a030b/"
                 target="_blank"
                 rel="noreferrer"
-                className="flex items-center gap-5 hover:text-blue-400 transition"
+                className="flex items-center gap-5 hover:text-blue-400 transition min-w-0"
               >
 
-                <FaLinkedin className="text-2xl"/>
+                <FaLinkedin className="text-2xl flex-shrink-0"/>
 
-                LinkedIn
+                <span className="break-words min-w-0 text-sm sm:text-base">LinkedIn</span>
 
               </a>
 
@@ -171,8 +173,11 @@ function Contact() {
             border
             border-white/10
             rounded-3xl
-            p-8
-            space-y-5
+            p-5
+            sm:p-6
+            lg:p-8
+            space-y-4
+            sm:space-y-5
             "
 
           >

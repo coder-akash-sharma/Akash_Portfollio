@@ -103,8 +103,10 @@ function Navbar() {
         flex
         justify-between
         items-center
-        px-8
-        py-5
+        px-4
+        sm:px-6
+        md:px-8
+        py-3.5
         "
       >
 
@@ -114,7 +116,8 @@ function Navbar() {
         <a
           href="#home"
           className="
-          text-3xl
+          text-2xl
+          sm:text-3xl
           font-bold
           text-blue-400
           "
@@ -131,7 +134,9 @@ function Navbar() {
           className="
           hidden
           md:flex
-          gap-8
+          items-center
+          gap-4
+          lg:gap-5
           "
         >
 
@@ -149,6 +154,10 @@ function Navbar() {
                 relative
                 transition
                 duration-300
+                text-sm
+                lg:text-[15px]
+                font-medium
+                tracking-wide
 
                 ${
                   active === item.id
@@ -212,6 +221,10 @@ function Navbar() {
           md:hidden
           text-2xl
           text-white
+          p-2
+          rounded-lg
+          hover:bg-white/5
+          transition
           "
 
         >
@@ -244,9 +257,10 @@ function Navbar() {
           <div
             className="
             md:hidden
-            bg-[#050816]
+            bg-[#050816]/95
             border-t
             border-white/10
+            backdrop-blur-xl
             "
           >
 
@@ -256,8 +270,8 @@ function Navbar() {
               flex
               flex-col
               gap-6
-              px-8
-              py-8
+              px-4
+              py-6
               "
             >
 
@@ -275,7 +289,9 @@ function Navbar() {
                     onClick={handleClick}
 
                     className={`
-                    text-lg
+                    text-base
+                    block
+                    py-1
                     ${
                       active === item.id
                       ?
