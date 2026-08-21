@@ -40,7 +40,11 @@ function Hero() {
           </p>
 
           <div className="flex flex-wrap justify-center md:justify-start gap-4 sm:gap-5 mt-8">
-            <a href="#" className="flex items-center justify-center gap-3 px-5 sm:px-7 py-3 rounded-xl border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition duration-300 w-full sm:w-auto">
+            <a
+              href="/resume.pdf"
+              download="Akash-Sharma-Resume.pdf"
+              className="flex items-center justify-center gap-3 px-5 sm:px-7 py-3 rounded-xl border border-blue-500 text-blue-400 hover:bg-blue-500 hover:text-white transition duration-300 w-full sm:w-auto"
+            >
               <FaDownload />
               Download Resume
             </a>
